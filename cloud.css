@@ -1,0 +1,12 @@
+.cloud-panel{max-width:640px}
+.cloud-panel h3{font-size:18px;margin:0 0 10px}
+.cloud-panel label{display:block;font-size:13px;margin:12px 0 4px}
+.cloud-small{font-size:13px;color:var(--mut);line-height:1.7;overflow-wrap:anywhere}
+.cloud-form{display:flex;flex-direction:column;align-items:stretch;max-width:380px}
+.cloud-form .btn{margin-top:16px}
+.cloud-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.cloud-warning{background:rgba(194,86,26,.09);border:1px solid var(--acc);padding:12px;border-radius:10px;font-size:13px;line-height:1.7;margin:15px 0}
+.cloud-warning p{margin:4px 0 10px}
+.cloud-indicator{font-weight:600}
+.cloud-error{color:#c0392b}
+@media(max-width:600px){.cloud-actions .btn{white-space:normal;text-align:center;flex:1 1 140px}.cloud-panel{max-width:none}}
